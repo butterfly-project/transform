@@ -1,0 +1,22 @@
+{
+    "name": "butterfly/transform",
+    "type": "library",
+    "description": "Butterfly PHP. Transform Component",
+    "keywords": ["Transform"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Marat Fakhertdinov",
+            "email": "marat.fakhertdinov@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.3"
+    },
+    "autoload": {
+        "psr-4": {
+            "Butterfly\\Component\\Transform\\": "src/",
+            "Butterfly\\Component\\Transform\\Tests\\": "tests/"
+        }
+    }
+}
